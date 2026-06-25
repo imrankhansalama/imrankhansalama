@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 1. Colored Index Tabs on right edge of the book cover (underneath cover) -->
+    <!-- Green Tab -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M76,33 h3 c1.5,0 2,0.5 2,2 v4 c0,1.5 -0.5,2 -2,2 h-3 z" />
+    
+    <!-- Orange Tab -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M76,45 h3 c1.5,0 2,0.5 2,2 v4 c0,1.5 -0.5,2 -2,2 h-3 z" />
+
+    <!-- Blue Tab -->
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M76,57 h3 c1.5,0 2,0.5 2,2 v4 c0,1.5 -0.5,2 -2,2 h-3 z" />
+
+    <!-- 2. Dark Outline of White pages underneath the book -->
+    <path
+        android:fillColor="#091E3A"
+        android:pathData="M32,73.5 h41 c2,0 3,1 3,3 v3.5 c0,2 -1,3 -3,3 h-41 c-2,0 -3,-1 -3,-3 v-3.5 c0,-2 1,-3 3,-3 z" />
+
+    <!-- 3. White Paper Pages (Representing paper depth) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M32,73.5 h41 c2,0 3,1 3,3 v2 c0,2 -1,3 -3,3 h-41 c-2,0 -3,-1 -3,-3 v-2 c0,-2 1,-3 3,-3 z" />
+
+    <!-- 4. Bookmark Ribbon hanging from bottom-left of the book cover -->
+    <path
+        android:fillColor="#1D4ED8"
+        android:pathData="M35,73 h8 v14 l-4,-3 l-4,3 z" />
+
+    <!-- 5. Main Book Cover (Professional Blue) -->
+    <path
+        android:fillColor="#2563EB"
+        android:pathData="M34,23 h38 c3,0 5,2 5,5 v43 c0,3 -2,5 -5,5 h-38 c-3,0 -5,-2 -5,-5 v-43 c0,-3 2,-5 5,-5 z" />
+
+    <!-- 6. Ribbon detail (subtle highlight shadow overlay where ribbon enters book cover) -->
+    <path
+        android:fillColor="#1E40AF"
+        android:pathData="M35,71 h8 v3.5 h-8 z" />
+
+    <!-- 7. CREDIT text using custom paths (White lines) -->
+    <!-- C -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M41,33.5 h-3.5 v5 h3.5" />
+    <!-- R -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M43,38.5 v-5 h2.2 c0.8,0 1.3,0.6 1.3,1.3 c0,0.7 -0.5,1.2 -1.3,1.2 h-2.2 M45.2,36 l1.3,2.5" />
+    <!-- E -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M52,33.5 h-3.5 v5 h3.5 M48.5,36 h2.5" />
+    <!-- D -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M54,33.5 v5 M54,33.5 h1.5 c1.1,0 2,0.9 2,2.5 c0,1.6 -0.9,2.5 -2,2.5 h-1.5" />
+    <!-- I -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M59.5,33.5 h2 M60.5,33.5 v5 M59.5,38.5 h2" />
+    <!-- T -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M63.5,33.5 h3.5 M65.25,33.5 v5" />
+
+    <!-- 8. BOOK text using custom paths (White lines) -->
+    <!-- B -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M41,48.5 v-5 M41,43.5 h2 c1,0 1.5,0.5 1.5,1.2 c0,0.6 -0.5,1.1 -1.5,1.1 h-2 M41,45.8 h2 c1,0 1.5,0.6 1.5,1.4 c0,0.8 -0.5,1.3 -1.5,1.3 h-2" />
+    <!-- O -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M50,43.5 h1.5 c1.1,0 2,0.9 2,2.5 c0,1.6 -0.9,2.5 -2,2.5 h-1.5 c-1.1,0 -2,-0.9 -2,-2.5 c0,-1.6 0.9,-2.5 2,-2.5" />
+    <!-- O -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M57,43.5 h1.5 c1.1,0 2,0.9 2,2.5 c0,1.6 -0.9,2.5 -2,2.5 h-1.5 c-1.1,0 -2,-0.9 -2,-2.5 c0,-1.6 0.9,-2.5 2,-2.5" />
+    <!-- K -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M64,48.5 v-5 M64,46 l3.5,-2.5 M64,46 l3.5,2.5" />
+
+    <!-- 9. Parallel Crease details (Two horizontal lines at the bottom of the book cover) -->
+    <path
+        android:strokeColor="#93C5FD"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M38,64 h32 M38,67.5 h32" />
+
+</vector>

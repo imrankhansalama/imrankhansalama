@@ -1,0 +1,6 @@
+{
+  "name": "Credit Book",
+  "description": "A modern business ledger (Udhar/Khata) app for shopkeepers to manage customer credit, payments, stock, and billing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
